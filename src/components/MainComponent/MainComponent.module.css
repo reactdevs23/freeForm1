@@ -1,0 +1,150 @@
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  z-index: 1;
+  margin: 90px 0;
+}
+.mainWrapper2 {
+  flex-direction: row;
+  gap: 24px;
+}
+.mainWrapper::before {
+  content: "";
+  background: var(--bg);
+  position: absolute;
+  width: calc(100% + 100px);
+  height: 80%;
+  border-radius: 170px;
+  z-index: -1;
+}
+.wrapper {
+  display: flex;
+  gap: 24px;
+}
+.mainWrapper4 .wrapper1 {
+  gap: 100px;
+  margin-bottom: 50px;
+}
+.mainWrapper3 .wrapper1 {
+  gap: 100px;
+  margin-bottom: 25px;
+}
+
+.mainWrapper5 .wrapper2,
+.mainWrapper4 .wrapper2,
+.mainWrapper3 .wrapper2 {
+  gap: 100px;
+  margin-top: 50px;
+}
+.mainWrapper2 .wrapper {
+  margin: 0;
+}
+.mainTitle {
+  background: var(--bg);
+  border-radius: 10px;
+  padding: 24px;
+  margin: 0 auto;
+}
+
+.mainTitle .title {
+  color: var(--color);
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.card {
+  background: var(--bg);
+  border: var(--border);
+  box-shadow: var(--boxShadow);
+  padding: 18px;
+  padding-top: 50px;
+  border-radius: 10px;
+  max-width: 277px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.card2 {
+  transform: translateY(-50px);
+}
+.mainWrapper4 .card2 {
+  transform: none;
+}
+.card5 {
+  transform: translateY(80px);
+}
+.mainWrapper3 .card2 {
+  transform: none;
+}
+.mainWrapper5 .card5 {
+  transform: none;
+}
+.mainWrapper4 .card4 {
+  transform: none;
+}
+.mainWrapper2 .card {
+  transform: none;
+}
+.id {
+  background: var(--bg);
+  border: var(--border);
+  box-shadow: var(--boxShadow);
+  width: 63px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color0);
+  text-align: center;
+
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.title {
+  color: var(--color);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.list {
+  background: var(--bg);
+  padding: 24px 10px;
+  border-radius: 6px;
+}
+.text {
+  color: var(--color);
+
+  text-align: center;
+
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
