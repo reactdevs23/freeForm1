@@ -4,7 +4,7 @@ import MainComponent from "./components/MainComponent/MainComponent";
 
 function App() {
   const [allData, setAllData] = useState({
-    fontFamily: "'Inter', sans-serif",
+    fontFamily: "'IBM Plex Sans', sans-serif",
     mainBg: "#fff",
     centerBoxBg: "#EFF4FF",
     mainTitle: {
